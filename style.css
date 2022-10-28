@@ -37,13 +37,6 @@
   line-height: 18px;
 }
 
-.task {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1;
-  outline: none;
-}
-
 .task-form {
   display: flex;
   padding: 20px 0;
@@ -89,6 +82,8 @@
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  outline: none;
+  flex-grow: 1;
 }
 
 .task-form__txt-input:focus {
@@ -113,7 +108,7 @@
 .task-form__label {
   padding-left: 10px;
   box-sizing: border-box;
-  width: 226px;
+  flex-grow: 1;
 }
 
 .btn-del__rot-img {
