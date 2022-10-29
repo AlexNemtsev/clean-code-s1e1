@@ -16,28 +16,28 @@
     <section class="main__sect">
       <h3 class="main__header">Add Item</h3>
       <form class="task-form">
-        <input class="form-text task-form__txt-input" type="text">
-        <button class="task-form__btn">Add</button>
+        <input class="task-text txt-input" type="text">
+        <button class="btn">Add</button>
       </form>
     </section>
     <section class="main__sect">
       <h3 class="main__header">Todo</h3>
-      <ul id="incompleteTasks" class="main__task-list">
-        <li class="main__task">
-          <input type="checkbox" class="task-form__checkbox">
-          <label class="form-text task-form__label">Pay Bills</label>
-          <input type="text" class="form-text task-form__txt-input">
-          <button class="edit task-form__btn">Edit</button>
-          <button class="task-form__btn btn-del">
+      <ul class="todo-list main__task-list">
+        <li class="main__task task">
+          <input type="checkbox" class="task__checkbox">
+          <label class="task-text task__label">Pay Bills</label>
+          <input type="text" class="task-text txt-input">
+          <button class="edit-btn btn">Edit</button>
+          <button class="btn btn-del">
             <img src="./remove.svg" alt="Delete button" class="btn-del__rot-img">
           </button>
         </li>
-        <li class="editMode main__task">
-          <input type="checkbox" class="task-form__checkbox">
-          <label class="form-text task-form__label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="form-text task-form__txt-input">
-          <button class="edit task-form__btn">Save</button>
-          <button class="task-form__btn btn-del">
+        <li class="edit-mode main__task task">
+          <input type="checkbox" class="task__checkbox">
+          <label class="task-text task__label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task-text txt-input">
+          <button class="edit-btn btn">Save</button>
+          <button class="btn btn-del">
             <img src="./remove.svg" alt="Delete button" class="btn-del__rot-img">
           </button>
         </li>
@@ -45,13 +45,13 @@
     </section>
     <section class="main__sect">
       <h3 class="main__header">Completed</h3>
-      <ul id="completed-tasks" class="completed-tasks main__task-list">
-        <li class="main__task">
-          <input type="checkbox" class="task-form__checkbox" checked>
-          <label class="form-text task-form__label">See the Doctor</label>
-          <input type="text" class="form-text task-form__txt-input">
-          <button class="edit task-form__btn">Edit</button>
-          <button class="task-form__btn btn-del">
+      <ul class="completed-tasks main__task-list">
+        <li class="main__task task">
+          <input type="checkbox" class="task__checkbox" checked>
+          <label class="task-text task__label">See the Doctor</label>
+          <input type="text" class="task-text txt-input">
+          <button class="edit-btn btn">Edit</button>
+          <button class="btn btn-del">
             <img src="./remove.svg" alt="Delete button" class="btn-del__rot-img">
           </button>
         </li>
